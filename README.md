@@ -1,6 +1,6 @@
 # Smart Contract Lottery
 
-This project is a decentralized lottery/raffle application implemented using Solidity and Foundry. This project was developed following the Cyfrin Updraft online course.
+This project is a decentralized lottery/raffle application implemented using Solidity and Foundry. Developed following the Cyfrin Updraft online course.
 Cyfrin repo: https://github.com/Cyfrin/foundry-smart-contract-lottery-cu
 
 ## How It Works
@@ -8,6 +8,8 @@ Cyfrin repo: https://github.com/Cyfrin/foundry-smart-contract-lottery-cu
 1. Users enter the lottery by sending ETH to the smart contract, paying a predefined minimum entry fee.
 2. After a specified amount of time, a winner is selected randomly from the list of participants.
 3. The winner receives the entire accumulated prize pool.
+
+![Diagram](raffle_diagram.png "Diagram to visually understand the flow of information.")
 
 ## Setup and Installation
 
